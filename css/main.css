@@ -1,0 +1,136 @@
+*{
+    font-family: "Microsoft YaHei UI Light";
+}
+footer{
+    text-align: center;
+    padding: 20px 0 20px;
+    background-color: rgb(102,102,102);
+}
+footer p{
+    color: #cccccc;
+}
+.item img{
+    margin: 0px auto;
+}
+.tab-h2{
+    text-align: center;
+    color: #66ccff;
+}
+.tab1>div.container>p{
+    text-align: center;
+    color: darkgray;
+}
+.tab1,.tab2,.tab3{
+    padding: 15px 0;
+}
+.tab1 *{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tab2 img{
+    width: 40%;
+    height: 40%;
+}
+.tab3 img{
+    width: 40%;
+    height: 100%;
+}
+.tab2{
+    background-color: #eee;
+    text-align: center;
+}
+.tab2{
+    /*background-color: #eee;*/
+    text-align: center;
+}
+.tab3-text{
+    text-align: center;
+}
+.tab3>div.container div{
+    padding: 60px;
+}
+@media (min-width: 768px){
+    .tab2-img{
+        float: right;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+    }
+    .jumbotron h4{
+        font-size: 14px;
+    }
+    #about p {
+        font-size: 14px;
+    }
+    #about h3{
+        font-size: 19px;
+    }
+}
+@media(min-width: 1200px){
+    .jumbotron h1{
+        font-size: 36px;
+    }
+    .jumbotron h4{
+        font-size: 18px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+    #about h3{
+        font-size: 22px;
+    }
+}
+.jumbotron h1,.jumbotron h4{
+    color:#ccc;
+}
+.jumbotron{
+    background-image: url("../img/bg.jpg");
+    margin: 50px 0 0 0;
+}
+#case{
+    background-color: #eee;
+    padding: 40px 0;
+}
+#case>div.container>div.row>div{
+    margin-bottom: 20px;
+}
+#about{
+    background-color: #eee;
+}
+#about .col-md-3{
+    margin-top: 20px;
+}
+#about .col-md-9{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px #ccc;
+}
+#about .col-md-9 h3{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+#information{
+    padding: 40px 0;
+    background: #eee;
+}
+.info-content{
+    background-color: white;
+    box-shadow: 2px 2px 3px #ccc;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#info-left{
+    padding-right: 0px;
+}
+#info-right{
+    background-color: white;
+    box-shadow: 2px 2px 3px #ccc;
+    padding-left: 15px;
+}
+#info-right blockquote{
+    margin: 0;
+    padding: 0;
+}
+#about{
+    padding-bottom: 20px;
+}
